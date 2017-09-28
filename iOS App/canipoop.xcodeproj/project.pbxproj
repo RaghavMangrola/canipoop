@@ -7,24 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F51627A1F7C7F0B0062F18D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5162791F7C7EFC0062F18D /* GoogleService-Info.plist */; };
 		8F5B92B41F2AC1F100D3D455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B92B31F2AC1F100D3D455 /* AppDelegate.swift */; };
 		8F5B92B61F2AC1F100D3D455 /* CanIPoopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B92B51F2AC1F100D3D455 /* CanIPoopViewController.swift */; };
 		8F5B92B91F2AC1F100D3D455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F5B92B71F2AC1F100D3D455 /* Main.storyboard */; };
 		8F5B92BB1F2AC1F100D3D455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F5B92BA1F2AC1F100D3D455 /* Assets.xcassets */; };
 		8F5B92BE1F2AC1F100D3D455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F5B92BC1F2AC1F100D3D455 /* LaunchScreen.storyboard */; };
-		8F5B92C61F2AC60100D3D455 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5B92C51F2AC60100D3D455 /* GoogleService-Info.plist */; };
 		DC661F32044045FC67DA5F77 /* Pods_canipoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9705158AE06736F60EEDD9D /* Pods_canipoop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8F5B92B01F2AC1F100D3D455 /* canipoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = canipoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F5162791F7C7EFC0062F18D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8F51627B1F7C7FA40062F18D /* canipoop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = canipoop.entitlements; sourceTree = "<group>"; };
+		8F51627C1F7C7FA40062F18D /* canipoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = canipoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F5B92B31F2AC1F100D3D455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F5B92B51F2AC1F100D3D455 /* CanIPoopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanIPoopViewController.swift; sourceTree = "<group>"; };
 		8F5B92B81F2AC1F100D3D455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F5B92BA1F2AC1F100D3D455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F5B92BD1F2AC1F100D3D455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F5B92BF1F2AC1F100D3D455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F5B92C51F2AC60100D3D455 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B0784D99860A19315219712C /* Pods-canipoop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-canipoop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-canipoop/Pods-canipoop.debug.xcconfig"; sourceTree = "<group>"; };
 		B9705158AE06736F60EEDD9D /* Pods_canipoop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_canipoop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55855C215104D86ABD2D090 /* Pods-canipoop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-canipoop.release.xcconfig"; path = "Pods/Target Support Files/Pods-canipoop/Pods-canipoop.release.xcconfig"; sourceTree = "<group>"; };
@@ -55,30 +56,23 @@
 			isa = PBXGroup;
 			children = (
 				8F5B92B21F2AC1F100D3D455 /* canipoop */,
-				8F5B92B11F2AC1F100D3D455 /* Products */,
 				1BAFA661528CBF9B667D7F41 /* Pods */,
 				B7D100BA67BE47D6B6CAFF96 /* Frameworks */,
+				8F51627C1F7C7FA40062F18D /* canipoop.app */,
 			);
-			sourceTree = "<group>";
-		};
-		8F5B92B11F2AC1F100D3D455 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8F5B92B01F2AC1F100D3D455 /* canipoop.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		8F5B92B21F2AC1F100D3D455 /* canipoop */ = {
 			isa = PBXGroup;
 			children = (
+				8F51627B1F7C7FA40062F18D /* canipoop.entitlements */,
 				8F5B92B31F2AC1F100D3D455 /* AppDelegate.swift */,
 				8F5B92B51F2AC1F100D3D455 /* CanIPoopViewController.swift */,
 				8F5B92B71F2AC1F100D3D455 /* Main.storyboard */,
 				8F5B92BA1F2AC1F100D3D455 /* Assets.xcassets */,
 				8F5B92BC1F2AC1F100D3D455 /* LaunchScreen.storyboard */,
 				8F5B92BF1F2AC1F100D3D455 /* Info.plist */,
-				8F5B92C51F2AC60100D3D455 /* GoogleService-Info.plist */,
+				8F5162791F7C7EFC0062F18D /* GoogleService-Info.plist */,
 			);
 			path = canipoop;
 			sourceTree = "<group>";
@@ -111,7 +105,7 @@
 			);
 			name = canipoop;
 			productName = canipoop;
-			productReference = 8F5B92B01F2AC1F100D3D455 /* canipoop.app */;
+			productReference = 8F51627C1F7C7FA40062F18D /* canipoop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,6 +122,14 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 2UE8KDTEZH;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -140,7 +142,7 @@
 				Base,
 			);
 			mainGroup = 8F5B92A71F2AC1F100D3D455;
-			productRefGroup = 8F5B92B11F2AC1F100D3D455 /* Products */;
+			productRefGroup = 8F5B92A71F2AC1F100D3D455;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -155,7 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F5B92BE1F2AC1F100D3D455 /* LaunchScreen.storyboard in Resources */,
-				8F5B92C61F2AC60100D3D455 /* GoogleService-Info.plist in Resources */,
+				8F51627A1F7C7F0B0062F18D /* GoogleService-Info.plist in Resources */,
 				8F5B92BB1F2AC1F100D3D455 /* Assets.xcassets in Resources */,
 				8F5B92B91F2AC1F100D3D455 /* Main.storyboard in Resources */,
 			);
@@ -185,9 +187,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-canipoop/Pods-canipoop-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -200,13 +209,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-canipoop-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -341,10 +353,11 @@
 			baseConfigurationReference = B0784D99860A19315219712C /* Pods-canipoop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = canipoop/canipoop.entitlements;
 				DEVELOPMENT_TEAM = 2UE8KDTEZH;
 				INFOPLIST_FILE = canipoop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RaghavMangola.canipoop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EventFarm.CanIPoop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -356,10 +369,11 @@
 			baseConfigurationReference = F55855C215104D86ABD2D090 /* Pods-canipoop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = canipoop/canipoop.entitlements;
 				DEVELOPMENT_TEAM = 2UE8KDTEZH;
 				INFOPLIST_FILE = canipoop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RaghavMangola.canipoop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EventFarm.CanIPoop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

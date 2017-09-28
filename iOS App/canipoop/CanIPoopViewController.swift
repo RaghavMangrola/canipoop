@@ -8,6 +8,7 @@
 
 import UIKit
 import FirebaseDatabase
+import Firebase
 
 class CanIPoopViewController: UIViewController {
 
@@ -66,4 +67,21 @@ class CanIPoopViewController: UIViewController {
 //            upstairsLabel.text = closedString
 //        }
     }
+
+    @IBAction func downstairsButtonPressed(_ sender: Any) {
+        let x = self.ref.child("office1").child("queue").childByAutoId()
+
+        guard let userId = Auth.auth().currentUser?.uid else {
+            return
+        }
+
+        x.setValue(["user": userId])
+
+        print(x)
+    }
+
+    @IBAction func upstairsButtonPressed(_ sender: Any) {
+    }
+
+
 }

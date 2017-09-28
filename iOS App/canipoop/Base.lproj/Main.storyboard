@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -33,10 +33,19 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vlf-mY-Yw4">
+                                                <rect key="frame" x="164.5" y="293.5" width="46" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="upstairsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SNr-px-mmD"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.82745098039215681" green="0.82745098039215681" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="Vlf-mY-Yw4" secondAttribute="bottom" id="M7w-bb-2Q0"/>
                                             <constraint firstItem="3zU-Uh-8HV" firstAttribute="centerX" secondItem="p7d-yH-jpJ" secondAttribute="centerX" id="S6D-ra-4Lk"/>
+                                            <constraint firstItem="Vlf-mY-Yw4" firstAttribute="centerX" secondItem="p7d-yH-jpJ" secondAttribute="centerX" id="fRL-Af-J2G"/>
                                             <constraint firstItem="3zU-Uh-8HV" firstAttribute="centerY" secondItem="p7d-yH-jpJ" secondAttribute="centerY" id="kKt-hD-joL"/>
                                         </constraints>
                                     </view>
@@ -49,11 +58,20 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uii-71-4FP">
+                                                <rect key="frame" x="164.5" y="293.5" width="46" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="downstairsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XTB-Gc-k0m"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="ucW-uR-lJG" firstAttribute="centerX" secondItem="U5z-r4-6GW" secondAttribute="centerX" id="Byj-Te-u7l"/>
+                                            <constraint firstItem="uii-71-4FP" firstAttribute="centerX" secondItem="U5z-r4-6GW" secondAttribute="centerX" id="SXi-o8-AYd"/>
                                             <constraint firstItem="ucW-uR-lJG" firstAttribute="centerY" secondItem="U5z-r4-6GW" secondAttribute="centerY" id="Su9-Ag-dZN"/>
+                                            <constraint firstAttribute="bottom" secondItem="uii-71-4FP" secondAttribute="bottom" id="WC5-td-Wq5"/>
                                         </constraints>
                                     </view>
                                 </subviews>
