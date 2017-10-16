@@ -58,12 +58,12 @@ class CanIPoopViewController: UIViewController {
             downstairsLabel.text = closedString
         }
 
-//        if isUpstairsBathroomOpen {
-//            upstairsView.backgroundColor = UIColor(red:0.29, green:0.91, blue:0.49, alpha:1.00)
-//            upstairsLabel.text = openString
-//        } else {
-//            upstairsView.backgroundColor = UIColor(red:0.22, green:0.19, blue:0.39, alpha:1.00)
-//            upstairsLabel.text = closedString
-//        }
+        if isUpstairsBathroomOpen {
+            upstairsView.backgroundColor = UIColor(red:0.29, green:0.91, blue:0.49, alpha:1.00)
+            upstairsLabel.text = openString
+        } else {
+            upstairsView.backgroundColor = UIColor(red:0.22, green:0.19, blue:0.39, alpha:1.00)
+            upstairsLabel.text = closedString
+        }
     }
 }
