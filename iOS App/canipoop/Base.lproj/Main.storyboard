@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,22 +14,18 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="CanIPoopViewController" customModule="canipoop" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="KSu-G0-i2A">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p7d-yH-jpJ" userLabel="Upstairs">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="323.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="406"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="💩" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zU-Uh-8HV">
-                                                <rect key="frame" x="152.5" y="124.5" width="69" height="76.5"/>
+                                                <rect key="frame" x="152.66666666666666" y="165" width="69" height="76.666666666666686"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="64"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -41,10 +38,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U5z-r4-6GW" userLabel="Downstairs">
-                                        <rect key="frame" x="0.0" y="323.5" width="375" height="323.5"/>
+                                        <rect key="frame" x="0.0" y="406" width="375" height="406"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="💩" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucW-uR-lJG">
-                                                <rect key="frame" x="152" y="122.5" width="70" height="78"/>
+                                                <rect key="frame" x="152" y="164" width="70" height="77.666666666666686"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="65"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -61,11 +58,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="KSu-G0-i2A" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="BZL-AC-pr4"/>
-                            <constraint firstAttribute="trailing" secondItem="KSu-G0-i2A" secondAttribute="trailing" id="KRc-cc-ioI"/>
-                            <constraint firstItem="KSu-G0-i2A" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="T1N-pP-cd2"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KSu-G0-i2A" secondAttribute="bottom" id="b6B-OI-LG4"/>
+                            <constraint firstAttribute="bottom" secondItem="KSu-G0-i2A" secondAttribute="bottom" id="9d7-h4-mQ6"/>
+                            <constraint firstItem="pbb-Bg-gB1" firstAttribute="trailing" secondItem="KSu-G0-i2A" secondAttribute="trailing" id="CWq-kq-fS4"/>
+                            <constraint firstItem="KSu-G0-i2A" firstAttribute="leading" secondItem="pbb-Bg-gB1" secondAttribute="leading" id="aes-U9-Ru7"/>
+                            <constraint firstItem="KSu-G0-i2A" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="vO0-0n-aGr"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="pbb-Bg-gB1"/>
                     </view>
                     <connections>
                         <outlet property="downstairsLabel" destination="ucW-uR-lJG" id="agn-Fs-fBT"/>
