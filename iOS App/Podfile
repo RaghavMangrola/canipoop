@@ -8,4 +8,8 @@ target 'canipoop' do
   # Pods for canipoop
   pod 'Firebase/Core'
   pod 'Firebase/Database'
+  pod 'Analytics', '~> 3.0'
+  pod 'Crashlytics', '~>  3.9'
+  pod 'Fabric', '~> 1.7'
+
 end
